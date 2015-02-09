@@ -6,7 +6,7 @@ import picamera
 def get_file_name():
     return datetime.datetime.now().strftime("%Y-%m-%d-%H%M%S.jpg")
 
-sensor = 1
+sensor = 4
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(sensor, GPIO.IN, GPIO.PUD_DOWN)
